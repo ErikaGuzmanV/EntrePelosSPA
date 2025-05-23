@@ -47,10 +47,10 @@
 
         /* Estilos del logo */
         .logo {
-            max-width: 180px;
-            height: auto;
+            max-width: 180px; /* Tamaño máximo del logo */
+            height: auto; /* Mantiene la proporción de la imagen */
             margin-bottom: 15px;
-            border-radius: 50%;
+            border-radius: 50%; /* Para un logo circular si la imagen es cuadrada */
             border: 5px solid var(--secondary-color);
             box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
             animation: bounceIn 1s ease-out; /* Animación al cargar */
@@ -578,7 +578,7 @@
 </head>
 <body>
     <header>
-        <img src="https://raw.githubusercontent.com/Anahidelagarza/logo_entre_pelos/main/Logo%20Entre%20Pelos%20SPA.png" alt="Entre Pelos SPA Logo" class="logo">
+        <img src="https://github.com/ErikaGuzmanV/EntrePelosSPA/blob/main/Logo%20de%20_Entre%20Pelos%20Spa_.png?raw=true" alt="Entre Pelos SPA Logo" class="logo">
         <h1>Entre Pelos SPA</h1>
         <p class="tagline">¡Donde el bienestar de tu mascota es nuestra pasión!</p>
     </header>
@@ -1028,9 +1028,9 @@
         });
 
         // Configurar el logo de GitHub (simulado)
-        // Esta línea intenta cargar el logo desde una URL de GitHub Raw.
-        // Asegúrate de que esta URL sea la correcta para tu imagen de logo.
-        document.querySelector('.logo').src = 'https://raw.githubusercontent.com/Anahidelagarza/logo_entre_pelos/main/Logo%20Entre%20Pelos%20SPA.png';
+        // Se ha actualizado la URL del logo para que apunte directamente a la imagen en GitHub Raw.
+        // El CSS de la clase 'logo' ya maneja el tamaño máximo y la proporción.
+        document.querySelector('.logo').src = 'https://github.com/ErikaGuzmanV/EntrePelosSPA/blob/main/Logo%20de%20_Entre%20Pelos%20Spa_.png?raw=true';
 
         // Funcionalidad para cerrar menús desplegables al hacer clic fuera
         document.addEventListener('click', function(event) {
